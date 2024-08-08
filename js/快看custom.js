@@ -7,10 +7,7 @@ var rule={
 	filter_url:'{{fl.cateId}}',
 	filter: {"lianxuju":[{"key":"cateId","name":"类型","value":[{"n":"国产剧","v":"guochanju"}]}]},
 	filter_def:{
-		// dianying:{cateId:'dianying'},
-		lianxuju:{cateId:'lianxuju'},
-		// zongyi:{cateId:'zongyi'},
-		// dongman:{cateId:'dongman'}
+		lianxuju:{cateId:'lianxuju'}
 	},
     searchUrl:'/vodsearch/-------------.html?wd=**&submit=',
     searchable:2,//是否启用全局搜索,
