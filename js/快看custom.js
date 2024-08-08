@@ -17,7 +17,7 @@ var rule={
         // "Cookie": "searchneed=ok"
     },
     class_parse:'nav ul li;a&&Text;a&&href;.*/(.*?)\.html',
-	cate_exclude:'专题',
+	cate_exclude:'专题|电影|综艺|动漫',
     play_parse:true,
     lazy:'',
     limit:6,
