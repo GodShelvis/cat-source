@@ -13,7 +13,7 @@ var rule = {
   headers: { "User-Agent": "MOBILE_UA" },
   filterable: 1, //是否启用分类筛选,
   filter_url:
-    "{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-----fypage---",
+    "/vodshow/{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-----fypage---.html",
   filter: {
     1: [
       {
