@@ -1,10 +1,10 @@
 var rule = {
   title: "NY影院",
   host: "https://www.nycvod.com",
-  homeUrl: "https://nycvod.com/vodshow/30--time------fypage---.html",
+  homeUrl: "https://nycvod.com/vodshow/30--------fypage---.html",
   class_name: "电视剧&短剧",
   class_url: "30&50",
-  url: "/vodshow/fyclass--time------fypage---.html",
+  url: "/vodshow/fyclass--------fypage---.html",
   detailUrl: "/voddetail/fyid.html",
   推荐: ".public-list-box;a&&title;.lazy&&data-src;.public-list-prb&&Text;a&&href",
   double: false,
