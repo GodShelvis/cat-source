@@ -1,7 +1,7 @@
 var rule = {
   title: "NY影院",
   host: "https://www.nycvod.com",
-  homeUrl: "https://nycvod.com/vodshow/30-----------.html",
+  homeUrl: "https://nycvod.com/vodshow/30--------fypage---.html",
   class_name: "电视剧&短剧&电影",
   class_url: "2&50&1",
   url: "/vodshow/fyfilter.html",
@@ -13,7 +13,8 @@ var rule = {
   quickSearch: 0,
   headers: { "User-Agent": "MOBILE_UA" },
   filterable: 1, //是否启用分类筛选,
-  filter_url: "{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-----fypage---",
+//   filter_url: "{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-----fypage---",
+  filter_url: "{{fl.cateId}}--------fypage---",
   filter: {
     1: [
       {
