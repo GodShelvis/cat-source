@@ -4,6 +4,7 @@ var rule = {
   homeUrl: "https://nycvod.com/vodshow/30-----------.html",
   class_name: "电视剧&短剧&电影",
   class_url: "2&50&1",
+  url: "/vodshow/fyfilter.html",
   detailUrl: "/voddetail/fyid.html",
   推荐: ".public-list-box;a&&title;.lazy&&data-src;.public-list-prb&&Text;a&&href",
   double: false,
@@ -12,8 +13,7 @@ var rule = {
   quickSearch: 0,
   headers: { "User-Agent": "MOBILE_UA" },
   filterable: 1, //是否启用分类筛选,
-  filter_url:
-    "/vodshow/{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-----fypage---.html",
+  filter_url: "{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-----fypage---",
   filter: {
     1: [
       {
@@ -163,11 +163,11 @@ var rule = {
       } 
     ]
   },
-//   filter_def: {
-//       2: { cateId: "2" },
-//       50: { cateId: "50" },
-//       1: { cateId: "1" },
-//   },
+  filter_def: {
+      2: { cateId: "2" },
+      50: { cateId: "50" },
+      1: { cateId: "1" },
+  },
   一级: 'js:let body=input.split("#")[1];let t=Math.round(new Date/1e3).toString();let key=md5("DS"+t+"DCC147D11943AF75");let url=input.split("#")[0];body=body+"&time="+t+"&key="+key;print(body);fetch_params.body=body;let html=post(url,fetch_params);let data=JSON.parse(html);VODS=data.list.map(function(it){it.vod_pic=urljoin2(input.split("/i")[0],it.vod_pic);return it});',
   二级: {
     title: ".slide-info-title&&Text;.slide-info:eq(3)--strong&&Text",
