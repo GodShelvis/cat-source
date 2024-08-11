@@ -5,6 +5,7 @@
 "sites":[
     {"key": "drpy_js_豆瓣","name": "豆瓣搜索[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/drpy.js","searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "drpy_js_快看","name": "自定义 | 快看[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/快看custom.js"},
+    {"key": "drpy_js_NY影院","name": "影视 | NY影院[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/NY-custom.js"},
     {"key": "csp_YGP","name": "新片速递[jar]","type": 3,"api": "csp_YGP","searchable": 1,"quickSearch": 1,"changeable": 0},
     {"key": "drpy_js_快看","name": "影视 | 快看[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/快看.js"},
     {"key": "drpy_js_低端","name": "影视 | 低端[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/ddys.js"},
